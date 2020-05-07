@@ -1,5 +1,4 @@
 # MathCPU
-Simple 4-bit matematical CPU in Logisim
 
 Functions - addition, subtraction, multiplication, division, logical operations and memory operations
 
