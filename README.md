@@ -1,0 +1,32 @@
+# MathCPU
+Simple 4-bit matematical CPU in Logisim
+
+Functions of CPU:
+  Opcode		Function
+  Bin	Hex	
+  0000	0	A + B
+  0001	1	A – B
+  0010	2	A * B
+  0011	3	Overflow A * B
+  0100	4	A / B
+  0101	5	A % B
+  0110	6	¬A
+  0111	7	¬B
+  1000	8	Bit shift right
+  1001	9	Bit shift left
+  1010	A	A AND B
+  1011	B	A OR B
+  1100	C	A to Output
+  1101	D	B to Output
+  1110	E	Output to A
+  1111	F	Output to B
+
+  Flag		Function
+  Bin	Hex	
+  000	0	A > B
+  001	1	A = B
+  010	2	A < B
+  011	3	A >= B
+  100	4	A <= B
+  101	5	A ≠ B
+
